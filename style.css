@@ -1,0 +1,56 @@
+h1 {
+    background-color: #ff6a6a;
+    border-radius: 50px;
+    width: 98%;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#show_sketch {
+    float: right;
+    background-color: black;
+}
+
+canvas {
+    border: 5px solid rgb(197, 237, 255);
+    border-radius: 20px;
+    animation-name: cheetu;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinet;
+
+
+}
+
+@keyframes cheetu {
+    from {
+        box-shadow: 1px 1px 38px grey;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(0, 0, 0);
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#sketches {
+    background-color: black;
+    color: white;
+}
+
+#label {
+    background-color: aqua;
+    color: black;
+    font-size: medium;
+}
+
+#accuracy {
+    background-color: burlywood;
+    color: white;
+    font-size: medium;
+}
